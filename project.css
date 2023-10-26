@@ -1,0 +1,190 @@
+body{
+    background-color:whitesmoke; 
+    font-style: oblique;
+    margin: 2px;
+    padding: 0px;
+    background-repeat: cover;
+    overflow-x: hidden;
+   
+}
+#h1{
+    width: 100%;
+    display: flex;
+    background-color:white; 
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    border:2px solid black;
+    background-attachment: fixed;  
+    font-family: 'Arial Black';
+
+}
+#xy{
+    margin-top: -60px;
+    margin-left: 40%;
+}
+header{
+    width: 100%;
+    background-attachment: fixed;
+   
+    
+}
+#x,#y,#z{
+    border-radius: 5%;
+    transition: 0.5s all;
+    margin-left: 2%;
+}
+
+#x:hover, #y:hover ,#z:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    cursor: pointer;
+}
+
+.f1{
+    display:flex;
+    justify-content:space-evenly;
+    align-content: flex-start;
+    background-color:whitesmoke;
+    margin: 2vw;
+    border: 2px solid b;
+    padding:10px;
+
+}
+nav a{
+    color: blue;
+    text-decoration: none;
+}
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
+
+}
+#cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.foot{
+    margin-top: 3%;
+    background-color:white;
+    font-size: x-large;
+    width: 100%;
+    
+}
+.foot a{
+    color: red;
+    text-decoration: none;
+}
+
+h2{
+    width:100vw;
+}
+h2 a{
+    color: red;
+    text-decoration: none;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;  
+    width: 100%;
+    padding: 20px;
+    text-overflow: hidden;
+}
+
+nav a:hover{
+    color:red;
+    transform: scaleX(1.2) scaleY(1.2);
+    transition: 0.5s all;   
+}
+
+#img2{
+    border-radius: 50%;
+    transition: .5s all;
+}
+#img2:hover{
+    box-shadow: 2px 2px 2px wheat;
+    cursor: pointer;
+    transform: scaleX(1.1) scaleY(1.1);
+
+}
+.vid{
+    
+    margin-left: 70px;
+    padding: 25px;
+    padding-left: 5px;
+}
+
+.carousel-cell {
+    width: 90%;
+    height: 400px;
+    /* margin-right: 2px; */
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+/* cell number */
+.section{
+    height: 50%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button (usually a link or button) */
+.dropdown-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the color of the links when you hover over them */
+.dropdown-content a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media screen and (max-width: 590px) {
+    nav{
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2px;
+    }
+    
+}
+
